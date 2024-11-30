@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from solutions.customer_who_never_order import find_customers
+from solutions.pandas.customer_who_never_order import find_customers
 
 def test_find_customers_case1():
     customers_data = {"id": [1, 2, 3, 4], "name": ["Alice", "Bob", "Charlie", "David"]}
